@@ -20,7 +20,7 @@ app.get("/new/:url*", function(req, res){
         res.send({"error":err});
       } else {
         finalObj.originalURL = redirectUrl;
-        finalObj.shortURL = "https://whatever.com/" + shortUrl;
+        finalObj.shortURL = "https://fcc-urlshort-sahaj.herokuapp.com/" + shortUrl;
         res.setHeader('Content-Type', 'application/json');
         res.send(finalObj);
       }
@@ -37,7 +37,7 @@ app.get("/:url", function(req, res) {
         res.send({"error":err});
       } else {
         finalObj.originalURL = redirectUrl;
-        finalObj.shortURL = "https://whatever.com/" + urlId;
+        finalObj.shortURL = "https://fcc-urlshort-sahaj.herokuapp.com/" + urlId;
         res.setHeader('Content-Type', 'application/json');
         res.send(finalObj);
       }
