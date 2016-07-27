@@ -1,0 +1,8 @@
+{
+  "name": "Url shortner fcc",
+  "description": "An Url shortner by sahajr",
+  "repository": "https://github.com/SahajR/fcc-url-shortner.git",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "static"],
+  "image": "heroku/nodejs"
+}

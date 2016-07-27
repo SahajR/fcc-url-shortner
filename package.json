@@ -1,0 +1,28 @@
+{
+  "name": "url-shortner-sahajr",
+  "version": "0.2.5",
+  "description": "An Url shortner by sahajr",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "4.13.3",
+    "body-parser" : "1.15.2",
+    "shortid" : "2.2.6",
+    "mongodb": "2.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SahajR/fcc-url-shortner.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
